@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kota Bandung</title>
 
     <!-- My Own Styles -->
     <link rel="stylesheet" href="assets/style/styles.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -20,23 +21,25 @@
         <nav class="nav-list">
             <ul>
                 <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Our Menu</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#ourmenu">Our Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
 
     <main>
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="about-description">
-                <h1 class="title">Coffee <span>Monster</span></h1>
                 <article>
-                    Here at Coffee Monster, we invite you to enter a world of extraordinary taste <br>where the fragrant
-                    aroma of fresh coffee and a warm smile are always welcoming. <br>This is more than just a coffee
-                    shop;
-                    it's an immersive coffee experience that indulges all your senses.
+                    <h1 class="title">Coffee <span>Monster</span></h1>
+                    <p>
+                        Here at Coffee Monster, we invite you to enter a world of extraordinary taste <br>
+                        where the fragrant aroma of fresh coffee and a warm smile are always welcoming. <br>
+                        This is more than just a coffeeshop; it's an immersive coffee experience that indulges all your
+                        senses.
+                    </p>
                 </article>
             </div>
             <div class="about-image">
@@ -44,17 +47,20 @@
             </div>
         </section>
 
-        <section class="barista-section">
+        <section class="barista-section" id="ourmenu">
             <div class="barista-image">
                 <img src="assets/img/special-menu.jpg" alt="">
             </div>
 
             <div class="barista-description">
-                <h1 class="title"> <span>Special Breakfast</span> <br> Unforgettable Morning Delights</h1>
                 <article>
-                    A beautiful morning starts with a special breakfast <br> and we bring you the best. In our specialty
-                    breakfast dishes <br> you will find the perfect combination of taste, nutrition and unforgettable
-                    deliciousness.
+                    <h2 class="title" > <span>Special Breakfast</span><br><br> Unforgettable Morning <br><br>Delights
+                    </h2>
+                    <p>
+                        A beautiful morning starts with a special breakfast <br>
+                        and we bring you the best. In our specialty breakfast dishes <br>
+                        you will find the perfect combination of taste, nutrition and unforgettable deliciousness.
+                    </p>
                 </article>
                 <div class="menu-section">
                     <div class="menu-card">
@@ -73,7 +79,7 @@
                     <div class="menu-card">
                         <div class="menu-description">
                             <div class="menu-image">
-                                <img src="assets/img/croissant.jpg" height="230px" alt="">
+                                <img src="assets/img/croissant.jpg" alt="">
                             </div>
                             <h3 class="menu-name">Croissant</h3>
                             <div class="menu-pricing">
@@ -85,7 +91,7 @@
                     <div class="menu-card">
                         <div class="menu-description">
                             <div class="menu-image">
-                                <img src="assets/img/hot-chocolate.jpg" height="230px" alt="">
+                                <img src="assets/img/hot-chocolate.jpg" alt="">
                             </div>
                             <h3 class="menu-name">Hot Chocolate</h3>
                             <div class="menu-pricing">
@@ -98,15 +104,17 @@
             </div>
         </section>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <div class="contact-form">
-                <h1 class="title"> Contact Us</h1>
                 <article>
-                    We will receive your message and our support team will respond to you within a few minutes
+                    <h2 class="title" > Contact Us</h2>
+                    <p>
+                        We will receive your message and our support team will respond to you within a few minutes
+                    </p>
                 </article>
                 <input type="text" id="fname" name="firstname" placeholder="Your Name">
-                <input type="email" id="fname" name="firstname" placeholder="Your Email">
-                <textarea type="text" placeholder="Your Message"></textarea>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
                 <div class="button-submit">
                     <button>Submit</button>
                 </div>
@@ -120,24 +128,29 @@
 
     <footer>
         <div class="footer-description">
-            <h3>Monster Coffee</h3>
-            <article>There are people who can’t start their day <br>without having a freshly brewed cup of coffee and we
-                understand them.</article>
+
+            <article>
+                <h3>Monster Coffee</h3>
+                <p>
+                    There are people who can’t start their day without having a freshly brewed cup of coffee and we
+                    understand them.
+                </p>
+            </article>
         </div>
 
         <div class="footer-location">
-            <h4>Contact Us</h4>
+            <h3>Contact Us</h3>
             <p><svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-            </svg>Bandung</p>
+                    viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                </svg>Bandung</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-            </svg>coffee.monster@gmail.com</p>           
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                </svg>coffee.monster@gmail.com</p>
         </div>
     </footer>
 </body>

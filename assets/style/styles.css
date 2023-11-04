@@ -93,7 +93,7 @@
     margin-top: 100px;
   }
 
-  main .barista-section .barista-description .title {
+  main .barista-section .barista-description h2 {
     font-size: 3rem;
     margin-block: 1rem;
   }
@@ -145,6 +145,7 @@
     width: 230px;
     object-fit: cover;
     opacity: 70%;
+    height: 230px;
   }
 
   main .barista-section .menu-section .menu-card .menu-image img:hover{
@@ -174,7 +175,7 @@
     flex-direction: column;
   }
 
-  main .contact-section .contact-form .title {
+  main .contact-section .contact-form h2 {
     font-size: 3rem;
     margin-block: 1rem;
   }
@@ -186,7 +187,7 @@
   }
 
   main .contact-section .contact-form input {
-    width: 100%px;
+    width: 100%;
     height: 80px;
     padding: 12px;
     border: 1px solid #ccc;
@@ -268,6 +269,8 @@
   footer .footer-location svg {
     width: 50px;
   }
+
+  
 
   
 
