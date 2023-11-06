@@ -24,14 +24,14 @@
     display: none;
     cursor: pointer;
     margin-right: 22px;
-}
+   }
 
 .hamburger .line {
     width: 30px;
     height: 3px;
     background-color: black;
     margin: 6px;
-}
+   } 
     
    header.navbar-container .logo img {
     width: 120px;
@@ -281,26 +281,4 @@
   footer .footer-location svg {
     width: 50px;
   }
-
-  
-
-  
-
-
-  
-
-
-
-
-
-  
-
-
-  
-
-
-  
-
-
-
 
