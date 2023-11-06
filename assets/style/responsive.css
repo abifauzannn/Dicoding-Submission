@@ -130,10 +130,118 @@
 
 }
 
-@media screen and (max-width : 576px){
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
 
+    header.navbar-container .logo img{
+        width: 90px;
+    }
+
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        transition: 0.5s;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .nav-list.active {
+        display: block;
+    }
+
+    .nav-list ul {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list ul li {
+        padding: 1rem;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    
+    main .about-section {
+        flex-direction: column;
+    }
+
+    main .about-section .about-image img{
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+
+    main .about-section .about-description {
+        order: 2;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main .barista-section {
+        flex-direction: column;
+    }
+    
+    main .barista-section .barista-image img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+
+    main .barista-section .menu-section .menu-card .menu-image img{
+        width: 110px;
+    }
+
+    main .barista-section .menu-section .menu-card .menu-description .menu-pricing {
+        margin-top: 2px;
+    }
+
+    main .contact-section {
+        flex-direction: column;
+    }
+
+    main .contact-section .contact-image {
+        order: 1;
+    }
+
+    main .contact-section .contact-image img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+
+    main .contact-section .contact-form {
+        order: 2;
+    }
+
+    footer {
+        justify-content: center;
+        height: 330px;
+        flex-direction: column;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer .footer-description {
+        flex: 1;
+        margin-bottom: 4px;
+    }
+
+    footer .footer-location {
+        margin-top: -100px;
+        flex: 1;
+    }
 }
 
-@media screen and (max-width : 350px){
-
-}
+  
