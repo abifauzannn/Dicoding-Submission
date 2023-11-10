@@ -1,6 +1,4 @@
-@media screen and (max-width : 1200px){
 
-}
 
 @media screen and (max-width : 768px){
 
@@ -128,6 +126,10 @@
         line-height: 1rem;
     }
 
+    main aside {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -241,6 +243,10 @@
     footer .footer-location {
         margin-top: -100px;
         flex: 1;
+    }
+
+    main aside {
+        display: none;
     }
 }
 
